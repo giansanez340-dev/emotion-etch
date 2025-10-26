@@ -6,13 +6,13 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
-import logo from "@/assets/logo.png";
+import logo from "@/asset/logo.png";
 
 export function Header() {
   return (
     <header className="flex items-center justify-between p-4 bg-card border-b border-border">
       <div className="flex items-center gap-3">
-        <img src={logo} alt="Tone Analyzer" className="w-40 h-40" />
+        <img src={logo} alt="Tone Analyzer" className="w-24 h-auto" />
         <h1 className="text-xl font-semibold text-green text-foreground">Grammar Checker</h1>
       </div>
       
