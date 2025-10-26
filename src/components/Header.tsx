@@ -12,8 +12,8 @@ export function Header() {
   return (
     <header className="flex items-center justify-between p-4 bg-card border-b border-border">
       <div className="flex items-center gap-3">
-        <img src={logo} alt="Tone Analyzer" className="w-8 h-8" />
-        <h1 className="text-xl font-semibold text-foreground">Tone Analyzer</h1>
+        <img src={logo} alt="Tone Analyzer" className="w-10 h-10" />
+        <h1 className="text-xl font-semibold text-green text-foreground">Grammar Checker</h1>
       </div>
       
       <DropdownMenu>
